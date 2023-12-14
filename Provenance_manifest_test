@@ -93,7 +93,13 @@
                 "height": 1011
               }
             }
-          ]
+          ],
+ "otherContent": [ {
+        "@id": "http://localhost:8080/annotation/1702571788061",
+        "@type": "sc:AnnotationList",
+        "label": "annotation_tester"
+    }]
+
         },
         {
           "@type": "sc:Canvas",
