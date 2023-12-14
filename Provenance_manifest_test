@@ -70,7 +70,7 @@
  "otherContent": [
             {
               "@type": "sc:AnnotationList",
-              "@id": "https://dms-data.stanford.edu/data/manifests/Parker/qx973nn9218/list/11v.json"
+              "@id": "https://raw.githubusercontent.com/am2539/Provenance_MG/main/anno1"
             }
           ]
         },
