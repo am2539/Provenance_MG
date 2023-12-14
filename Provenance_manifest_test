@@ -5,7 +5,7 @@
   "label": "Provenance",
   "service": {
     "profile": "http://iiif.io/api/search/0/search",
-    "@id": "http://localhost:8080/search-api/647eabf0ead439a7acf61ddb27ff2dc9/search",
+    "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/search-api/provenance_search/search",
     "@context": "http://iiif.io/api/search/0/context.json"
     },
   "description": "A test manifest for the provenance project\n",
