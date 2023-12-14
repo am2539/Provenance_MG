@@ -103,7 +103,7 @@
  "otherContent": [
             {
               "@type": "sc:AnnotationList",
-              "@id": "https://raw.githubusercontent.com/am2539/Provenance_MG/main/anno2"
+              "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/provenance_anno_2.json"
             }
           ]
         },
