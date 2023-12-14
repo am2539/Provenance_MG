@@ -52,6 +52,6 @@
       "@context": "http://iiif.io/api/presentation/2/context.json"
     }
   ],
-  "@id": "http://localhost:8080/annotation/list/0bd2628a4f714f9abd42b74472d81a40.json",
+  "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/provenance_anno_2.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
 }
