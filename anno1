@@ -1,0 +1,46 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "@id" : "http://localhost:8080/annotation/1702571788061",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2023-12-14T16:36:28",
+    "dcterms:modified" : "2023-12-14T16:36:28",
+    "resource" : [ {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Bookplate",
+      "chars" : "Bookplate"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Crewe Collection",
+      "chars" : "Crewe Collection"
+    }, {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "<a href=\"https://lib-cat.trin.cam.ac.uk/Search/Results?lookfor=Ailesbury%2C+Charles+Bruce%2C+&amp;type=AllFields&amp;limit=20\" target=\"_blank\" rel=\"noopener\">View Records",
+      "format" : "text/html",
+      "chars" : "<p><a href=\"https://lib-cat.trin.cam.ac.uk/Search/Results?lookfor=Ailesbury%2C+Charles+Bruce%2C+&amp;type=AllFields&amp;limit=20\" target=\"_blank\" rel=\"noopener\">View Records</a></p>"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://mss-cat.trin.cam.ac.uk/manuscripts/Provenance.json",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=104,114,1387,1732"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M104.05588,1845.57694h693.66189v0h693.66189v-866.023v-866.023h-693.66189h-693.66189v866.023z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_3359ee5e-bc1b-4dfd-8611-cff0e896f5b0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://mss-cat.trin.cam.ac.uk/manuscripts/Ailesbury,_Charles_Bruce_Earl_of,_1682-1747.jp2/canvas/1682-1747"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  } ],
+  "@id" : "http://localhost:8080/annotation/list/a1c1d3894c489ffc606d29ec94a9034f.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
