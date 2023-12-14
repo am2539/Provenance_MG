@@ -1,0 +1,57 @@
+{
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "http://localhost:8080/annotation/1702571857746",
+      "@type": "oa:Annotation",
+      "dcterms:created": "2023-12-14T16:37:37",
+      "dcterms:modified": "2023-12-14T16:37:37",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "http://dev.llgc.org.uk/sas/full_text": "Crewe Collection",
+          "chars": "Crewe Collection"
+        },
+        {
+          "@type": "dctypes:Text",
+          "http://dev.llgc.org.uk/sas/full_text": "<a href=\"https://lib-cat.trin.cam.ac.uk/Record/cbbca3b2-12bd-4e4a-92bd-5b4b8ef8c423\" target=\"_blank\" rel=\"noopener\">View Records",
+          "format": "text/html",
+          "chars": "<p><a href=\"https://lib-cat.trin.cam.ac.uk/Record/cbbca3b2-12bd-4e4a-92bd-5b4b8ef8c423\" target=\"_blank\" rel=\"noopener\">View Records</a></p>"
+        },
+        {
+          "@type": "oa:Tag",
+          "http://dev.llgc.org.uk/sas/full_text": "Bookplate",
+          "chars": "Bookplate"
+        }
+      ],
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "within": {
+            "@id": "https://mss-cat.trin.cam.ac.uk/manuscripts/Provenance.json",
+            "@type": "sc:Manifest"
+          },
+          "selector": {
+            "@type": "oa:Choice",
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=6,6,851,1002"
+            },
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5.90233,1008h425.54883v0h425.54883v-501.21898v-501.21898h-425.54883h-425.54883v501.21898z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c4ae85f4-ffc1-4c2a-9140-6bd4e974b83e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+            }
+          },
+          "full": "https://mss-cat.trin.cam.ac.uk/manuscripts/Anstruther,_John,_1678-1753.jp2/canvas/1678-1753"
+        }
+      ],
+      "motivation": [
+        "oa:commenting",
+        "oa:tagging"
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@id": "http://localhost:8080/annotation/list/0bd2628a4f714f9abd42b74472d81a40.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
